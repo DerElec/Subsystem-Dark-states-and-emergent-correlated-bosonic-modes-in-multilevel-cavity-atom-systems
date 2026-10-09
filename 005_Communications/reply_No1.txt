@@ -1,0 +1,100 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[document]{ragged2e}
+\usepackage[top=2.4cm, left=2.4cm, right=2.4cm, bottom=2.4cm]{geometry}
+\usepackage{marvosym}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{lipsum}
+\usepackage{amstext}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue,pdfusetitle]{hyperref}
+\usepackage{dsfont}
+\usepackage{physics}
+
+\definecolor{bluue}{RGB}{0, 0, 0}
+
+\newcommand{\textitr}[1]{\textit{\color{red} #1 }}
+\newcommand{\textitb}[1]{\textit{\color{blue} #1 }}
+
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{flushleft}
+    CORRESPONDING AUTHOR \\
+    Institut für Theoretische Physik\\
+    Universität Tübingen\\
+    Auf der Morgenstelle 14 \\
+    72076 Tübingen, Germany\\
+\end{flushleft}
+
+
+\justify
+\textbf{Resubmission letter – ``TITLE OF THE PAPER"}\\
+
+
+
+\noindent Dear Dr.~NAME OF THE EDITOR, \\
+
+
+\noindent Thank you very much for forwarding us the Referee report on our manuscript ``TITLE OF THE PAPER”, PRL-CODE OF THE PAPER.
+\\
+
+\noindent ...  
+ 
+%\vspace{0.2cm}
+
+%\noindent Thank you very much for your help. 
+
+\vspace{1cm}
+
+
+\noindent Sincerely yours, 
+\vspace{0.5cm}
+
+\noindent ALL OTHER AUTHORS
+
+\newpage
+
+\noindent {\large \textbf{List of Changes}}\\
+
+\begin{itemize}
+    \item ...
+\end{itemize}
+
+\newpage 
+
+\noindent {\large \textbf{Report of Referee A -- PRL-CODE OF THE PAPER/FIRST AUTHOR}}\\
+
+
+\noindent Initial remarks ... \\
+%First of all, we want to thank the Referee for their detailed report and for their positive feedback on our work. In particular, we are glad to see that they find our idea ``brilliant" and our research to be of high-quality. Below, we address point-by-point all the comments and the suggestions raised by the Referee in their report. \\ 
+
+
+\noindent {\color{blue} {\bf Referee:} \\
+\noindent ....}\\
+
+\noindent Response \\ 
+
+\noindent {\color{blue} {\bf Referee:}\\
+\noindent ....}\\
+
+\noindent ... \\
+
+\newpage 
+
+\noindent {\large \textbf{Report of Referee B -- PRL-CODE OF THE PAPER/FIRST AUTHOR}}\\
+
+\noindent {\color{red} {\bf Referee:} \\
+\noindent ....}\\
+
+\noindent Response \\ 
+
+\noindent {\color{red} {\bf Referee:}\\
+\noindent ....}\\
+
+\noindent ... \\
+
+\end{document}

@@ -1,0 +1,92 @@
+\documentclass[reprint,twocolumn,showpacs,superscriptaddress,longbibliography,email,floatfix,aps,prl]{revtex4-2}
+
+\usepackage{header}
+
+
+\begin{document}
+\title{Here goes the title}
+\author{Igor Lesanovsky}
+\affiliation{Institut f\"ur Theoretische Physik, Universit\"at T\"ubingen, Auf der Morgenstelle 14, 72076 T\"ubingen, Germany}
+\affiliation{School of Physics and Astronomy and Centre for the Mathematics and Theoretical Physics of Quantum Non-Equilibrium Systems, The University of Nottingham, Nottingham, NG7 2RD, United Kingdom}
+
+\begin{abstract}
+    Here goes the abstract.
+\end{abstract}
+
+\maketitle
+
+% -------------------------------------------------------------------------------------------------------------------------------------------- %
+
+\textbf{Introduction.--- } Here goes the main text \cite{Garrahan2010}. More information can be found in the Supplemental Material~\cite{SM}. \\
+
+% -------------------------------------------------------------------------------------------------------------------------------------------- %
+
+\textbf{Conclusions.---} 
+
+% -------------------------------------------------------------------------------------------------------------------------------------------- %
+
+The code and data supporting the findings of this work are available on Zenodo \cite{ZenodoData}. \\
+
+% -------------------------------------------------------------------------------------------------------------------------------------------- %
+
+\acknowledgments
+\textbf{Acknowledgements. --- } We thank ... for fruitful discussions. Tensor network calculations were performed using the ITensor library~\cite{Fishman2022}. We acknowledge funding from the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany's Excellence Strategy -- EXC-2111 -- 390814868, through the Research Unit FOR 5413/1, Grant No. 465199066, through the Research Unit FOR 5522/1, Grant No. 499180199, and through the state of Baden-W\"urttemberg through bwHPC and the German Research Foundation (DFG) through grant no INST 40/575-1 FUGG (JUSTUS 2 cluster). This project has also received funding from the European Union’s Horizon Europe research and innovation program under Grant Agreement No. 101046968 (BRISQ). This work is supported by ERC grant OPEN-2QS (Grant No. 101164443, https://doi.org/10.3030/101164443).
+
+
+
+\bibliography{biblio.bib}
+
+% -------------------------------------------------------------------------------------------------------------------------------------------- %
+
+\setcounter{equation}{0}
+\setcounter{figure}{0}
+\renewcommand{\theequation}{A\arabic{equation}}
+\renewcommand{\thefigure}{A\arabic{figure}}
+
+% -------------------------------------------------------------------------------------------------------------------------------------------- %
+
+\section*{End Matter}
+
+Here comes the End Matter (for PRL). \\
+
+
+\onecolumngrid
+\newpage
+
+\setcounter{equation}{0}
+\setcounter{page}{1}
+
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\makeatletter
+\renewcommand{\theequation}{S\arabic{equation}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thetable}{S\arabic{table}}
+\setcounter{secnumdepth}{1}
+
+
+
+\begin{center}
+{\Large SUPPLEMENTAL MATERIAL}
+\end{center}
+\begin{center}
+\vspace{0.8cm}
+{\Large Here goes the title}
+\end{center}
+\begin{center}
+Igor Lesanovsky$^{1,2}$
+\end{center}
+\begin{center}
+$^1${\em Institut f\"ur Theoretische Physik, Universit\"at T\"ubingen,}\\
+{\em Auf der Morgenstelle 14, 72076 T\"ubingen, Germany}\\
+$^2${\em School of Physics and Astronomy and Centre for the Mathematics}\\
+{\em and Theoretical Physics of Quantum Non-Equilibrium Systems,}\\ 
+{\em The University of Nottingham, Nottingham, NG7 2RD, United Kingdom}
+\end{center}
+
+% -------------------------------------------------------------------------------------------------------------------------------------------- %
+
+
+% -------------------------------------------------------------------------------------------------------------------------------------------- %
+
+\end{document}

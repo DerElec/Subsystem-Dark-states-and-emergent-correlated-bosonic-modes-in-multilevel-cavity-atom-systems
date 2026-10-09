@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# LaTeX
+*.aux
+*.log
+*.synctex.gz
+#*.pdf
+*.out
+*.toc
+#*.bbl
+*.blg
+*.dvi
+*.fdb_latexmk
+*.fls
+*.synctex(busy)
